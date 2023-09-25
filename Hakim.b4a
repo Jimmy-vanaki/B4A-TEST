@@ -1,0 +1,265 @@
+﻿Build1=full,com.dijlah.alhakim,Full
+File1=13.ttf
+File10=BloombergArabicBetav4-Regular(1).ttf
+File11=bookmark1.png
+File12=bookmark2.png
+File13=cart.bal
+File14=co512.png
+File15=cont.png
+File16=db1.0.sqlite
+File17=dijalhregular.ttf
+File18=dijfont-bold.ttf
+File19=dijlah-reg.ttf
+File2=1lionsysreqa-regular.ttf
+File20=email.png
+File21=facebook.png
+File22=header.png
+File23=header2.png
+File24=instagram.png
+File25=jquery-3.5.1.min.js
+File26=list_setting.bal
+File27=loader.gif
+File28=loding.gif
+File29=Lotus-Light.ttf
+File3=29ltbukralight.ttf
+File30=lyt_about.bal
+File31=lyt_favorite.bal
+File32=lyt_listcontent.bal
+File33=lyt_search.bal
+File34=lyt_settings.bal
+File35=main.js
+File36=materialicons.ttf
+File37=menu.bal
+File38=mezan-h-co512.png
+File39=mhebooks.css
+File4=30.png
+File40=mk-cn.png
+File41=NotoNaskhArabic.ttf
+File42=nouislider.min.css
+File43=nouislider.min.js
+File44=oops.jpg
+File45=p-1.jpg
+File46=samim.ttf
+File47=scheherazaderegot.ttf
+File48=search.png
+File49=site.png
+File5=about1.htm
+File50=splash.bal
+File51=switchone_off@2x.png
+File52=switchone_on@2x.png
+File53=t_lib.png
+File54=telegram.png
+File55=tiktok.png
+File56=toolbar_find.png
+File57=twitter.png
+File58=whatsapp.png
+File59=wNumb.min.js
+File6=algerialight.ttf
+File60=youtube.png
+File7=araassaf-regular.ttf
+File8=arial.ttf
+File9=bahij_muna-bold.ttf
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=abextdrawing
+Library10=core
+Library11=dialogs
+Library12=gesturedetector
+Library13=hitex_ahmaterialtablayout
+Library14=icosslideanimation
+Library15=ime
+Library16=javaobject
+Library17=jk_appcompat
+Library18=jk_justifytextview
+Library19=msmaterialdrawer
+Library2=ahnavigationdrawer
+Library20=mv_systemui
+Library21=phone
+Library22=preferenceactivity
+Library23=reflection
+Library24=richstring
+Library25=sanimation
+Library26=spinkitview
+Library27=sql
+Library28=stringutils
+Library29=uiswitch
+Library3=ahviewpager
+Library30=vectorcompat
+Library31=webviewextras
+Library32=xui
+Library33=byteconverter
+Library4=amir_glide
+Library5=amir_recyclerview
+Library6=amir_rvtoolbarparallax
+Library7=amir_viewmanager
+Library8=animationplus
+Library9=arialib
+ManifestCode=AddManifestText(~\n~<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="31"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~~\n~~\n~~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~~\n~SetApplicationAttribute(android:theme, "@style/Theme.AppCompat")~\n~'~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~	<style name="Theme.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">~\n~	    <item name="windowNoTitle">true</item>~\n~	    <item name="windowActionBar">true</item>~\n~		<item name="colorPrimary">#000000</item>~\n~	    <item name="colorPrimaryDark">#000000</item>~\n~		 <item name="android:navigationBarColor">#000000</item>~\n~	    <item name="colorAccent">#000000</item>~\n~		<item name="android:textColorPrimary">#000000</item>~\n~		<item name="android:windowDisablePreview">true</item>~\n~	</style>~\n~</resources>~\n~)~\n~~\n~CreateResource(values,recycler.xml,<resources>~\n~<style name="ScrollbarRecyclerView" parent="android:Widget">~\n~    <item name="android:scrollbars">vertical</item>~\n~</style> </resources>)~\n~~\n~SetApplicationAttribute(android:supportsRtl, "true")~\n~~\n~AddPermission("android.permission.CALL_PHONE")~\n~~\n~
+Module1=act_about
+Module10=mbHSeekBar
+Module11=SMDrawerItem
+Module12=Starter
+Module2=Act_Contents_Book
+Module3=act_favorite
+Module4=Act_library
+Module5=act_listcontent
+Module6=act_search
+Module7=act_settings
+Module8=Code_Settings
+Module9=Functions
+NumberOfFiles=60
+NumberOfLibraries=33
+NumberOfModules=12
+Version=12.2
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel:مؤلفات شهيد المحراب         
+	#VersionCode: 1
+	#VersionName: 1.0
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+	
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: true
+	#IncludeTitle: True
+	#MultiDex:true
+	#BridgeLogger: True
+	#Extends: android.support.v7.app.AppCompatActivity
+	#AdditionalRes: ..\res_RTLSeekBar
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private tani As Timer
+	Dim background_cl , activity_cl , text_cl , header_cl, footer_cl,right_menu_cl,item_cl As Int
+	Dim dbulr As String = "db"&Application.VersionName&".sqlite"
+	Dim sql1 As SQL
+
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+
+	Private img_splash As ImageView
+	Dim mv As mv_SystemUI
+	Dim cr_setting As Cursor
+
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+	Act_Contents_Book.search_list.Initialize
+	Activity.Height = -1
+	Activity.LoadLayout("splash")
+	tani.Initialize("tani",3000)
+'	ani.FadeOut("",img_splash,3000)
+	tani.Enabled = True
+
+	mv.HideNavigationBar
+
+	' --------------------------------------SQL_library---------------------
+	
+	If  File.Exists(File.DirInternal,dbulr)=False Then
+		File.Copy(File.DirAssets,dbulr,File.DirInternal,dbulr)
+	End If
+	
+
+	sql1.Initialize(File.DirInternal,dbulr,False)
+	
+	cr_setting = sql1.ExecQuery("SELECT * FROM personalsetting")
+	cr_setting.Position = 0
+	If cr_setting.GetInt("day_night") = 0 Then
+		Act_library.day_night = "day"
+	Else
+		Act_library.day_night = "night"
+	End If
+	cr_setting.Close
+End Sub
+
+Sub tani_Tick
+	tani.Enabled = False
+	Activity.Finish
+	StartActivity(Act_library)
+	
+End Sub
+
+Private Sub Activity_KeyPress (KeyCode As Int) As Boolean
+	If KeyCode=KeyCodes.KEYCODE_BACK  Then
+		
+		Return True
+	End If
+	Return False
+End Sub
+
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	Activity.Finish
+End Sub
